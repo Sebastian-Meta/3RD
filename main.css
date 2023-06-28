@@ -1,0 +1,300 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background: #161616;
+    color: white;
+    background-image: url(gym1.png.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay;
+
+
+}
+
+
+
+.loading-screen {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: #0e0e0e;
+    width: 0%;
+    height: 100%;
+}
+
+.load-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+}
+
+h1 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Cosi Azure";
+    font-size: 84px;
+}
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Cosi Azure";
+    font-size: 50px;
+}
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 24px 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.button:hover a {
+    background: white;
+    color: #161616;
+    transition: 0.3s;
+}
+.nav {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background-color: #717574;
+    position: absolute;
+    display: flexbox;
+    align-items: center;
+    justify-content:space-between;
+}
+
+ul ,li {
+    list-style: none;
+    display: flex;
+    padding: 1em;
+    margin: 0%;
+    
+}
+a{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    display: flex;
+    padding-right: 1em;
+    margin: 0;
+}
+
+#we{
+ 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+    
+}
+
+.ua{
+    width: 2em;
+    height: 1em;
+}
+.p{
+    font-size: small;
+    top: 60%;
+    align-content: center;
+}
+.p1{
+    position: absolute;
+    font-size: large;
+    top: 1300px;
+
+}
+
+
+#bla{
+    top: 450px;
+    left: 130px;
+    position: relative;
+
+    width: 200px;
+}
+
+
+#bla-1{
+    top: 450px;
+    left: 330px;
+    position: relative;
+
+    width: 200px;
+}
+#bla-2{
+    border-style: solid;
+    border: #161616;
+    border-radius: 20px;
+    border-color: rgb(5, 6, 6);
+    border-style: double;
+    top: 450px;
+    left: 530px;
+    position: relative;
+height: 137px;
+    width: 200px;
+}
+.stuff{
+    background-color: aliceblue;
+}
+
+.card {
+
+
+    left: 200px;
+    top: 450px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-image: url(lovepik-gym-dumbbell-close-up-picture_501101988.jpg);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card:hover {
+    transform: rotate(-5deg) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+  .card:hover svg {
+    scale: 0;
+    transform: rotate(-45deg);
+  }
+  
+
+
+
+
+
+
+  .card-1 {
+    left: 800px;
+    top: 254px;
+
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-image:url(motion-array-643479-Sport_World-Class-00047-high_0000.avif) ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card-1 svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card-1:hover {
+    transform: rotate(-5deg) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card__content-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card-1:hover .card__content-1 {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+  
+  .card__title-1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card__description-1 {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+  .card-1:hover svg {
+    scale: 0;
+    transform: rotate(-45deg);
+  }
+  
